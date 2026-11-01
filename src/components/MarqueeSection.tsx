@@ -68,11 +68,11 @@ export default function MarqueeSection() {
               alt=""
               loading="lazy"
               style={{
-                width: '420px',
-                height: '270px',
+                width: '320px',
+                height: 'auto',
                 flexShrink: 0,
                 borderRadius: '16px',
-                objectFit: 'cover',
+                objectFit: 'contain',
               }}
             />
           ))}
@@ -94,11 +94,11 @@ export default function MarqueeSection() {
               alt=""
               loading="lazy"
               style={{
-                width: '420px',
-                height: '270px',
+                width: '320px',
+                height: 'auto',
                 flexShrink: 0,
                 borderRadius: '16px',
-                objectFit: 'cover',
+                objectFit: 'contain',
               }}
             />
           ))}
